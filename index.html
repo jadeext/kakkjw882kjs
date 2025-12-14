@@ -1,49 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jade External</title>
-    <link rel="icon" href="assets/logo.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jade – Next-gen software</title>
+  <meta name="description" content="Experience the next generation of software with unmatched performance, security, and reliability.">
+  <meta property="og:title" content="Jade">
+  <meta property="og:description" content="Experience the next generation of software with unmatched performance, security, and reliability.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://YOUR-github-username.github.io/YOUR-repo-name/assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <div class="page-tabs">
-        <div class="container">
-            <nav class="tabs">
-                <a href="index.html" class="brand"><img src="assets/logo.png" alt="logo"></a>
-                <a href="index.html" class="active">Home</a>
-                <a href="pricing.html">Pricing</a>
-                <a href="reviews.html">Reviews</a>
-                <a href="roadmap.html">Roadmap</a>
-                <a href="faq.html">FAQ</a>
-            </nav>
-        </div>
+  <!-- NAV -->
+  <nav class="glass-nav">
+    <div class="nav-inner">
+      <a class="logo" href="/">
+        <span class="logo-icon">J</span>
+        <span class="logo-text">Jade</span>
+      </a>
+      <div class="nav-links">
+        <a class="active" href="/">Home</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/status">Status</a>
+      </div>
     </div>
+  </nav>
 
-    <div class="hero-header container">
-        <div class="punchline">
-            <h1>Why not?</h1>
-            <p>It makes everything better.</p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container text-center">
+      <div class="badge">
+        <span class="dot"></span>
+        <span>Updating / Fixing</span>
+      </div>
+      <h1 class="hero-title">Welcome to <span class="gradient-jade">Jade</span></h1>
+      <p class="hero-sub">Experience the next generation of software with unmatched performance, security, and reliability. Join our growing community today.</p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="https://discord.gg/fbcGNBcR" target="_blank" rel="noopener">Join Discord</a>
+        <a class="btn-secondary" href="/pricing">View Pricing</a>
+      </div>
+
+      <!-- preview cards -->
+      <div class="grid-preview">
+        <div class="preview-card">
+          <img src="assets/img/preview-dashboard.jpg" alt="Dashboard preview">
+          <h3>Dashboard Preview</h3>
+          <p>Add your screenshot here</p>
         </div>
-        <div class="header-menu">
-            <div class="logo"><img src="assets/logo.png" alt="Vexor"></div>
-            <p class="subtitle">Cheap · Instant Support From Our Team · Instant Updates · Multi-Game Support · Low-end and High-end PC Support</p>
-            <span class="status-badge"><i class="fas fa-check-circle"></i> Undetected</span>
+        <div class="preview-card">
+          <img src="assets/img/preview-feature.jpg" alt="Feature preview">
+          <h3>Feature Preview</h3>
+          <p>Add your screenshot here</p>
         </div>
+      </div>
     </div>
+  </header>
 
-    <div class="container">
-        <div class="card" style="max-width:720px;margin:60px auto;text-align:center">
-            <h2 style="margin-bottom:16px;background:linear-gradient(90deg,var(--accent),#fff);-webkit-background-clip:text;color:transparent">Ready to dominate?</h2>
-            <p style="margin-bottom:24px;color:var(--text-muted)">Head over to the Pricing tab to view our prices.</p>
-            <a href="pricing.html" class="btn">View Pricing</a>
-        </div>
+  <!-- FEATURES -->
+  <section class="features container">
+    <h2 class="section-title">Why Choose <span class="gradient-jade">Jade</span>?</h2>
+    <p class="section-sub">Discover what makes Jade the preferred choice for thousands of users worldwide.</p>
+
+    <div class="grid-features">
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#shield"/></svg></div>
+        <h3>Undetected</h3>
+        <p>Our advanced bypass technology keeps you safe and undetected at all times.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#zap"/></svg></div>
+        <h3>Lightning Fast</h3>
+        <p>Optimized performance ensures smooth gameplay without any lag or stuttering.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#lock"/></svg></div>
+        <h3>Secure</h3>
+        <p>Your data and privacy are protected with enterprise-grade security measures.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#refresh"/></svg></div>
+        <h3>Regular Updates</h3>
+        <p>Stay ahead with frequent updates that keep everything running smoothly.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#gift"/></svg></div>
+        <h3>Free Features</h3>
+        <p>Access core features completely free with no hidden costs or trials.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon"><svg class="icon"><use href="#users"/></svg></div>
+        <h3>Active Community</h3>
+        <p>Join thousands of users in our Discord for support and updates.</p>
+      </div>
     </div>
+  </section>
 
-    <footer>
-        <p>Jade External © 2025.</p>
-        <p>Not affiliated with Roblox Corporation. Use at your own risk — cheating violates Roblox TOS.</p>
-    </footer>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon sm">J</span>
+        <span class="logo-text">Jade</span>
+      </div>
+      <p class="copyright">© 2025 Jade. All rights reserved.</p>
+      <a class="footer-discord" href="https://discord.gg/fbcGNBcR" target="_blank" rel="noopener">Discord</a>
+    </div>
+  </footer>
+
+  <!-- SVG sprite (lightweight) -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <symbol id="shield" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></symbol>
+      <symbol id="zap" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol>
+      <symbol id="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+      <symbol id="refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></symbol>
+      <symbol id="gift" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"/><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"/></symbol>
+      <symbol id="users" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    </defs>
+  </svg>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
