@@ -1,55 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing - Vexor External</title>
-    <link rel="icon" href="assets/logo.png">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pricing – Jade</title>
+  <meta name="description" content="Simple, transparent pricing for Jade.">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <div class="page-tabs">
-        <div class="container">
-            <nav class="tabs">
-                <a href="index.html" class="brand"><img src="assets/logo.png" alt="logo"></a>
-                <a href="index.html">Home</a>
-                <a href="pricing.html" class="active">Pricing</a>
-                <a href="reviews.html">Reviews</a>
-                <a href="roadmap.html">Roadmap</a>
-                <a href="faq.html">FAQ</a>
-            </nav>
-        </div>
+  <nav class="glass-nav">
+    <div class="nav-inner">
+      <a class="logo" href="/">
+        <span class="logo-icon">J</span>
+        <span class="logo-text">Jade</span>
+      </a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a class="active" href="/pricing">Pricing</a>
+        <a href="/status">Status</a>
+      </div>
     </div>
+  </nav>
 
-    <div class="container" style="margin-top:80px;margin-bottom:80px">
-        <div class="card" style="max-width:520px;margin:0 auto;text-align:center">
-            <h2 style="margin-bottom:24px;background:linear-gradient(90deg,var(--accent),#fff);-webkit-background-clip:text;color:transparent">Unlock Vexor</h2>
-            <div class="price-list">
-                <div class="price-item">
-                    <span class="price-label">CashApp</span>
-                    <span class="price-value">$3.50</span>
-                </div>
-                <div class="price-item">
-                    <span class="price-label">Crypto (BTC, LTC, ETH)</span>
-                    <span class="price-value">$3.50</span>
-                </div>
-                <div class="price-item">
-                    <span class="price-label">Gift Cards</span>
-                    <span class="price-value">$3.50</span>
-                </div>
-                <div class="price-item">
-                    <span class="price-label">Robux</span>
-                    <span class="price-value">400</span>
-                </div>
-            </div>
-            <a href="https://discord.gg/PdhdCgJ7Z7" target="_blank" class="btn">Purchase</a>
-            <p style="margin-top:16px;font-size:.9rem;color:var(--text-muted)">Make a ticket under the tickets category.</p>
-        </div>
+  <main class="container pricing">
+    <h1 class="section-title">Pricing</h1>
+    <p class="section-sub">Core features are <strong>100 % free</strong>. Power users can unlock extras.</p>
+
+    <div class="grid-pricing">
+      <div class="plan">
+        <h3>Free</h3>
+        <div class="price">$0</div>
+        <ul>
+          <li>All core features</li>
+          <li>Community support</li>
+          <li>Regular updates</li>
+        </ul>
+        <a class="btn-secondary" href="https://discord.gg/fbcGNBcR" target="_blank" rel="noopener">Join Discord</a>
+      </div>
+
+      <div class="plan recommended">
+        <div class="badge-plan">Recommended</div>
+        <h3>Supporter</h3>
+        <div class="price">$5<span>/mo</span></div>
+        <ul>
+          <li>Everything in Free</li>
+          <li>Priority support</li>
+          <li>Early-access builds</li>
+          <li>Supporter badge</li>
+        </ul>
+        <a class="btn-primary" href="https://discord.gg/fbcGNBcR" target="_blank" rel="noopener">Upgrade</a>
+      </div>
     </div>
+  </main>
 
-    <footer>
-        <p>Jade External © 2025</p>
-        <p>Not affiliated with Roblox Corporation. Use at your own risk — cheating violates Roblox TOS.</p>
-    </footer>
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
